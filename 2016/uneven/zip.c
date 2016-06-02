@@ -24,7 +24,7 @@ void zip (list listA, list listB, list zipped) {
     link p2;
     // Go ahead and point to the head of A
     zipped->head = listA->head;
-    // Keep a point to it
+    // Keep a pointer to it
     link p3 = zipped->head;
     // If there's work to be done
     if(listA->head != NULL){
