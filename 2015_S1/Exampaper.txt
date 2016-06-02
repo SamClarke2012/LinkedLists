@@ -1,0 +1,46 @@
+=== COMP1917 Semester 1 2015 ===
+= Linked List Prac =
+
+ 1. If you have questions about using the exam environment ask the exam supervisor.
+
+ 2. Do not close the Master Exam Window. Closing it will terminate your exam session.
+
+ 3. Right click to bring up the menu.
+
+ 4. Select an Xterm.
+
+ 5. Type '''ls''' to see the provided files. (readonly means you can't edit the file) The files are
+    * a (readonly) header file e.g. ''list-ppexam''.h
+    * a (readonly) tester file e.g. test''frontBackSplit''.c
+    * a stub file e.g. ''frontBackSplit''.c - where you write your code
+    * an (readonly) original stub file e.g. ''frontBackSplit''_original.c - in case you need to refer to it.
+    
+
+ 6. Use any of your favourite editors eg gedit or nedit
+
+ 7. Read all the files; header, stub and tester to find out how to answer the question.
+
+ 8. If you accidentally remove any of the files, type '''fetch'''.
+    It will fetch any files missing in your home directory.
+
+ 9. To paste, highlight the text (hold left mouse button) and then middle mouse click at the desired location.
+
+10. Compile your code with this command:
+    {{{
+gcc -std=c99 -Wall -Werror -O -o frontBackSplit frontBackSplit.c testfrontBackSplit.c 
+    }}}
+
+11. Run your compiled code with this command:
+    {{{
+./frontBackSplit
+    }}}
+
+12. Submit your code with this command:
+    {{{
+submit 1 frontBackSplit.c
+    }}}
+    You can submit as many times as is necessary. Only the last submission is marked.
+
+13. Check your submission history by typing '''submit''' without any arguments.
+
+14. Logout - right click, and select from the menu.
